@@ -131,6 +131,11 @@ ninja.data = [{
           description: "DESI vs. Keck/DEIMOS — quantifying velocity biases from spectral blending in M31&#39;s disk",
           section: "Projects",handler: () => {
               window.location.href = "/projects/desi_deimos_kinematics/";
+            },},{id: "projects-next-galactic-winds-at-nasa-goddard",
+          title: 'Next: galactic winds at NASA Goddard',
+          description: "Where all that ejected mass goes — joining NASA GSFC in September 2026 to study how galaxies exhale",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/galactic_winds/";
             },},{id: "projects-reproducing-a-1980-solar-atmosphere-classic",
           title: 'Reproducing a 1980 solar atmosphere classic',
           description: "Acoustic pulse propagation with NLTE Mg II synthesis — rebuilding Gouttebroze &amp; Leibacher (1980)",
