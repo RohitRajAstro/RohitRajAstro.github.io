@@ -132,7 +132,7 @@ ninja.data = [{
           title: 'Graduated with Distinction from Juniata College and received the AIP Outstanding Undergraduate Research...',
           description: "",
           section: "News",},{id: "news-started-as-a-spark-postbac-fellow-at-the-center-for-astrophysics-harvard-amp-amp-smithsonian-working-with-dr-andrea-dupree-and-dr-paul-cristofari-on-stellar-atmospheres-radiative-transfer-and-machine-learning-spectral-emulation",
-          title: 'Started as a SPARK Postbac Fellow at the Center for Astrophysics Harvard &amp;amp;amp;...',
+          title: 'Started as a SPARK Postbac Fellow at the Center for Astrophysics | Harvard...',
           description: "",
           section: "News",},{id: "news-received-the-chambliss-astronomy-achievement-student-award-at-the-247th-aas-meeting-in-phoenix-where-i-presented-our-modeling-of-betelgeuse-s-chromospheric-dynamics-during-the-great-dimming-sparkles",
           title: 'Received the Chambliss Astronomy Achievement Student Award at the 247th AAS meeting in...',
@@ -210,6 +210,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://medium.com/@rohit.620159", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0000-0170-6302", "_blank");
         },
       },{
         id: 'social-rss',
