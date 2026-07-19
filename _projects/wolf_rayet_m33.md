@@ -9,6 +9,12 @@ category: research
 
 Wolf-Rayet stars are massive stars in their final act: stripped of hydrogen, driving ferocious winds, and destined for core collapse. Their mass-loss rates set how much material they return to their galaxies — but WR stars live in exactly the kind of dense, star-forming neighborhoods where ground-based spectroscopy struggles to isolate a single star.
 
+<div class="astro-figure">
+  <img src="/assets/img/projects/nasa_wr124.jpg" alt="Hubble image of Wolf-Rayet star WR 124 and its nebula M1-67" loading="lazy">
+  <p class="astro-caption">WR 124 and its nebula M1-67 — ten thousand years of wind, flung across six light-years.
+  <span class="astro-credit">Image: NASA / ESA / Hubble</span></p>
+</div>
+
 During my second summer in UC Santa Cruz's Science Internship Program (with Prof. Raja GuhaThakurta and Dr. Robert Williams), I led a study of WR and unusual emission-line stars in M31, M32, and M33 using Keck/DEIMOS spectroscopy and HST PHATTER/PHAST photometry. The key result came from asking an uncomfortable question about our own data: *how many of these spectra are actually blends?* I built a **2D Gaussian crowding-analysis pipeline** on the HST photometry, recovered sub-arcsecond (&lt;0.1″) coordinates for over 90% of the M33 WR sample, and showed that blending in fiber-scale surveys systematically biases WR subtype classifications and the mass-loss rates inferred from equivalent widths.
 
 <div class="astro-figure">

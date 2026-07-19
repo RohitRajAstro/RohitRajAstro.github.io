@@ -378,6 +378,89 @@ progress#progress::-moz-progress-bar {
   background: #e34c26;
 }
 
+// photo credit line inside figure captions
+.astro-credit {
+  display: block;
+  font-family: var(--astro-sans);
+  font-style: normal;
+  font-size: 0.66rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+  margin-top: 0.4rem;
+  opacity: 0.85;
+}
+
+// ---------------------------------------------------------------------------
+// Interactivity — CSS-only, progressive, reduced-motion safe
+// ---------------------------------------------------------------------------
+
+// cards and figures drift into view as you scroll (Chromium; others see them instantly)
+@supports (animation-timeline: view()) {
+  .card.hoverable,
+  .astro-repo-card,
+  .astro-figure {
+    animation: astro-rise linear both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 40%;
+  }
+}
+
+@keyframes astro-rise {
+  from {
+    opacity: 0.05;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// navbar links: gradient underline sweeps in on hover
+.navbar-nav .nav-link {
+  position: relative;
+}
+
+.navbar-nav .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0.5rem;
+  right: 0.5rem;
+  bottom: 3px;
+  height: 1.5px;
+  border-radius: 1px;
+  background: linear-gradient(90deg, var(--global-theme-color), var(--astro-gold));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.28s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+// the portrait leans in when greeted
+.profile img {
+  transition:
+    transform 0.45s cubic-bezier(0.2, 0.6, 0.2, 1),
+    box-shadow 0.45s ease;
+}
+
+.profile img:hover {
+  transform: rotate(-1.2deg) scale(1.015);
+  box-shadow: 0 16px 46px var(--astro-shadow);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card.hoverable,
+  .astro-repo-card,
+  .astro-figure,
+  .navbar-nav .nav-link::after,
+  .profile img {
+    animation: none;
+    transition: none;
+  }
+}
+
 // ---------------------------------------------------------------------------
 // Small touches
 // ---------------------------------------------------------------------------

@@ -2,7 +2,7 @@
 layout: page
 title: What fiber spectrographs miss in crowded fields
 description: DESI vs. Keck/DEIMOS — quantifying velocity biases from spectral blending in M31's disk
-importance: 4
+importance: 5
 category: research
 ---
 
