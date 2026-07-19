@@ -7,41 +7,29 @@ nav: true
 nav_order: 5
 ---
 
-{% if site.data.repositories.github_users %}
-
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
+<div class="astro-repo-grid">
+  <a class="astro-repo-card" href="https://github.com/RohitRajAstro/M33-WR-Crowding" target="_blank" rel="noopener">
+    <div class="repo-head"><i class="fa-brands fa-github"></i><span>M33-WR-Crowding</span></div>
+    <p>HST/PHATTER crowding analysis and Keck/DEIMOS wind benchmarks for Wolf-Rayet stars in M33 — the data, catalogs, and analysis code behind Raj et al. (ApJ, submitted).</p>
+    <div class="repo-meta"><span><span class="lang-dot python"></span>Python</span><span><i class="fa-solid fa-book-open fa-sm"></i>&nbsp;paper companion</span></div>
+  </a>
+  <a class="astro-repo-card" href="https://github.com/RohitRajAstro/gouttebroze-pulse" target="_blank" rel="noopener">
+    <div class="repo-head"><i class="fa-brands fa-github"></i><span>gouttebroze-pulse</span></div>
+    <p>Acoustic pulse propagation through a 1D solar atmosphere with non-LTE Mg II synthesis via the RH code — reproducing Gouttebroze &amp; Leibacher (1980) as a testbed for my Betelgeuse modeling.</p>
+    <div class="repo-meta"><span><span class="lang-dot python"></span>Python</span><span><i class="fa-solid fa-sun fa-sm"></i>&nbsp;radiative transfer</span></div>
+  </a>
+  <a class="astro-repo-card" href="https://github.com/RohitRajAstro/computational-fun_physics-astrophysics-sims" target="_blank" rel="noopener">
+    <div class="repo-head"><i class="fa-brands fa-github"></i><span>computational-fun</span></div>
+    <p>A playground of self-assigned physics: chaotic pendulums, collapsing star clusters, LIGO matched filtering, FDTD optics, and golden-ratio galaxies.</p>
+    <div class="repo-meta"><span><span class="lang-dot python"></span>Python</span><span><i class="fa-solid fa-flask fa-sm"></i>&nbsp;simulations</span></div>
+  </a>
+  <a class="astro-repo-card" href="https://github.com/RohitRajAstro/RohitRajAstro.github.io" target="_blank" rel="noopener">
+    <div class="repo-head"><i class="fa-brands fa-github"></i><span>RohitRajAstro.github.io</span></div>
+    <p>This website — Jekyll with a hand-tuned astro theme: golden-ratio typography, a twinkling starfield, and the occasional meteor.</p>
+    <div class="repo-meta"><span><span class="lang-dot html"></span>HTML/SCSS</span><span><i class="fa-solid fa-star fa-sm"></i>&nbsp;you are here</span></div>
+  </a>
 </div>
 
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+<p class="text-center" style="margin-top: 1.618rem">
+  <a href="https://github.com/RohitRajAstro" target="_blank" rel="noopener">More on my GitHub profile <i class="fa-brands fa-github"></i></a>
+</p>

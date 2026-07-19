@@ -6,7 +6,7 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
+  --global-bg-color: #{$astro-paper};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
@@ -121,28 +121,6 @@ html[data-theme="dark"] {
   .only-dark {
     display: block;
   }
-}
-
-// Deep-space starfield: a faint nebula glow plus three tiled star layers,
-// dark mode only, fixed so content scrolls over a still sky.
-html[data-theme="dark"] body {
-  background-image: radial-gradient(1100px 500px at 75% -5%, rgba(143, 180, 254, 0.09), transparent 70%),
-    radial-gradient(1.6px 1.6px at 22px 44px, rgba(255, 246, 222, 0.5) 50%, transparent 100%),
-    radial-gradient(1px 1px at 190px 130px, rgba(255, 255, 255, 0.42) 50%, transparent 100%),
-    radial-gradient(1.2px 1.2px at 335px 230px, rgba(190, 208, 255, 0.45) 50%, transparent 100%),
-    radial-gradient(1px 1px at 450px 60px, rgba(255, 255, 255, 0.3) 50%, transparent 100%),
-    radial-gradient(0.8px 0.8px at 105px 300px, rgba(255, 255, 255, 0.35) 50%, transparent 100%),
-    radial-gradient(1px 1px at 520px 320px, rgba(255, 240, 220, 0.28) 50%, transparent 100%);
-  background-size:
-    100% 100%,
-    600px 380px,
-    600px 380px,
-    600px 380px,
-    600px 380px,
-    600px 380px,
-    600px 380px;
-  background-repeat: no-repeat, repeat, repeat, repeat, repeat, repeat, repeat;
-  background-attachment: fixed;
 }
 
 html[data-theme-setting="dark"] {
