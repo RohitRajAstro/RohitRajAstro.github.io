@@ -2,12 +2,18 @@
 layout: page
 title: Betelgeuse's Great Dimming
 description: Non-LTE radiative transfer modeling of the mass ejection behind the 2019–2020 dimming
-img: assets/img/projects/betelgeuse_poster.jpg
+img: assets/img/projects/eso_betelgeuse_dimming.jpg
 importance: 1
 category: research
 ---
 
 In late 2019, Betelgeuse — one of the brightest stars in the sky — faded so dramatically that people wondered aloud whether it was about to explode. It wasn't. The leading explanation is a **surface mass ejection**: a huge parcel of the star's atmosphere was launched outward, cooled into dust, and temporarily blocked our view.
+
+<div class="astro-figure">
+  <img src="/assets/img/projects/eso_betelgeuse_dimming.jpg" alt="VLT/SPHERE images of Betelgeuse's surface fading through the Great Dimming" loading="lazy">
+  <p class="astro-caption">The star's actual surface, resolved by the VLT, fading through early 2020 — the event my models try to explain.
+  <span class="astro-credit">Image: ESO / M. Montargés et al. (CC BY 4.0)</span></p>
+</div>
 
 <div class="astro-figure">
   <img src="/assets/img/projects/nasa_betelgeuse_bowshock.jpg" alt="Herschel infrared image of Betelgeuse's bow shock" loading="lazy">
