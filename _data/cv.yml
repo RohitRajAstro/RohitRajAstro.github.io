@@ -2,96 +2,173 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Rohit Raj
+    - name: Email
+      value: rohit.raj@cfa.harvard.edu
+    - name: Location
+      value: Cambridge, MA
     - name: Languages
-      value: English, German
+      value: English (fluent), Hindi (fluent)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: B.S. in Physics — Graduated with Distinction
+      institution: Juniata College, Huntingdon, PA
+      year: 2021 – 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Study abroad — University of Leeds, United Kingdom (2023–2024)
+        - TA and evening group tutor for Intro Physics I & II, Modern Physics, and E&M
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: SPARK Postbac Fellow
+      institution: Center for Astrophysics | Harvard & Smithsonian, Cambridge, MA
+      year: Sep 2025 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Modeling the surface mass ejection driving Betelgeuse's "Great Dimming" with the Rybicki–Hummer non-LTE radiative transfer code; reproduced observed Mg II chromospheric line asymmetries and quantified ejection velocity and mass-loss rate, consistent with HST/STIS UV time-domain spectra. First-author paper in preparation.
+        - Building a neural spectral emulator to forward-model the effect of magnetic spot distributions on cool-star spectra, with applications to next-generation high-resolution spectrographs.
+        - "Advisors: Dr. Andrea Dupree, Dr. Paul Cristofari"
+    - title: SIP Research Lead
+      institution: University of California, Santa Cruz
+      year: Jun – Aug 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Led spectroscopic and photometric analysis of Wolf-Rayet and unusual emission-line stars in M31, M32, and M33 using Keck/DEIMOS and HST PHATTER/PHAST photometry; mentored three high-school interns.
+        - Developed a 2D Gaussian crowding-analysis pipeline; recovered sub-arcsecond (<0.1″) coordinates for >90% of the M33 WR sample and showed that blending in fiber-scale surveys systematically biases WR subtype classifications and mass-loss estimates. ApJ paper in review; Keck OSIRIS LGSAO follow-up awarded (2026B, Program U221).
+        - "Advisors: Prof. Raja GuhaThakurta, Dr. Robert Williams"
+    - title: SIP Research Lead
+      institution: University of California, Santa Cruz
+      year: Jun – Aug 2023
       description:
+        - Identified systematic velocity suppression in DESI fiber spectroscopy relative to DEIMOS slit spectroscopy in M31's crowded disk, revealing precision limits of 1.5″-fiber spectrographs for resolving individual stellar kinematics. Presented at the 243rd AAS.
+        - Developed an HST-based crowding-contamination metric ranking blending severity across survey targets.
+        - "Advisor: Prof. Raja GuhaThakurta"
+    - title: Theoretical Physics Research Student
+      institution: Imperial College London (remote)
+      year: Aug – Dec 2024
+      description:
+        - Developed FDTD simulations in Python for EM wave propagation in media with time-varying permittivity, including optical cloaking in quasi-crystals; reproduced results from seminal literature.
+        - "Advisor: Dr. T. V. Raziman"
+    - title: SOAR Scholar
+      institution: Emory University, Laney Graduate School (remote)
+      year: May – Aug 2023
+      description:
+        - Theoretical reading project on classical and quantum wave equations; applications of Noether's theorem to the classical and Schrödinger wave equations.
+    - title: Research Intern
+      institution: Case Western Reserve University, Cleveland, OH
+      year: May – Aug 2022
+      description:
+        - Implemented matched filtering and Fourier analysis to reproduce LIGO's GW150914 binary black hole detection; developed educational materials on gravitational-wave data analysis.
+        - "Mentor: Prof. Harsh Mathur"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Publications & Observing Proposals
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Publications
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - "Raj, R., Guhathakurta, P., Williams, R.E., Williams, B.F., Dalcanton, J.J., Durbin, M.J. — \"Wolf-Rayet Stars in M33: The Impact of Stellar Crowding on Spectral Classification and Mass-Loss Diagnostics.\" The Astrophysical Journal, submitted (July 2026)."
+        - "Raj, R., Cristofari, P.I., MacLeod, M., Huang, C., Dupree, A.K. — \"Modeling the Chromospheric Signature of a Mass Ejection in Betelgeuse.\" The Astrophysical Journal, in preparation (anticipated submission August 2026)."
+    - title: Observing Proposals
       items:
-        - Description 1.
-        - Description 2.
+        - "Co-Investigator (proposal author) — Keck Observatory OSIRIS LGSAO, Program U221, awarded 2026B: \"Wolf-Rayet Star Environments in M33: Resolving Spectral Contamination with K-band AO IFU Spectroscopy.\" PI: P. GuhaThakurta (UCSC); 1 night, Keck I, November 2026."
 
-- title: Other Interests
+- title: Honors & Awards
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - Chambliss Astronomy Achievement Student Award, American Astronomical Society (247th AAS)
+    - year: 2025
+      items:
+        - Outstanding Undergraduate Research Award, American Institute of Physics (one of two nationally)
+    - year: 2024
+      items:
+        - Herbert Levy Memorial Scholarship, American Institute of Physics (one of two national awardees)
+        - Rufus Reber Physics Prize, Juniata College
+    - year: 2023
+      items:
+        - SPS–Google Scholarship, Google (one of twenty selected nationally)
+        - FAMOUS Travel Grant, American Astronomical Society
+        - SPS Research Reporter Award, American Physical Society
+    - year: 2022
+      items:
+        - PhysCon Underrepresented Student Travel Award, American Institute of Physics
+    - year: 2021
+      items:
+        - Next Genius Scholarship (full tuition; one of 187 scholars from 4,500 applicants)
+        - Frontline Worker Scholarship, Outlier.org
+
+- title: Selected Presentations
+  type: time_table
+  contents:
+    - year: 2026
+      items:
+        - "\"A Source-Grounded AI Workflow for Accessible Astronomy Outreach\" — Poster, Language AI in the Space Sciences Workshop, STScI, Baltimore, MD"
+        - "\"Modeling the Chromospheric Dynamics of Betelgeuse during the Great Dimming\" — Poster, 247th AAS Meeting, Phoenix, AZ"
+    - year: 2025
+      items:
+        - "\"Wolf-Rayet Stars in M33 and Other Unusual Emission-Line Stars in M31, M32, and M33\" — Posters, Sigma Pi Sigma Physics Congress (Denver, CO) and 245th AAS Meeting (National Harbor, MD)"
+    - year: 2024
+      items:
+        - "\"Comparing SPLASH and DESI Surveys for Insights into M31's Evolution\" — Poster, 243rd AAS Meeting, New Orleans, LA"
+    - year: 2022
+      items:
+        - "\"Searching for Black Holes in LIGO Data\" — Poster, Sigma Pi Sigma Physics Congress (Washington, DC); Talk, 13th Annual Landmark Conference (Moravian College, PA)"
+
+- title: Training Programs
+  type: time_table
+  contents:
+    - title: NASA Proposal Writing and Evaluation Experience — Co-Author & Student Chief Scientist
+      institution: NASA Marshall Space Flight Center
+      year: Sep – Dec 2024
+      description:
+        - Co-authored a technical proposal for a multidisciplinary team; served as a primary reviewer on a NASA review panel.
+    - title: Canadian Astroparticle Physics Summer School
+      institution: Queen's University / SNOLAB, Canada
+      year: May 2023
+      description:
+        - Funded intensive training including dark matter detection workshops and the Nobel Prize-winning SNO experiment at SNOLAB.
+    - title: Gravity and Black Hole Workshop
+      institution: Perimeter Institute, Canada
+      year: Mar 2021
+
+- title: Teaching, Outreach & Service
+  type: nested_list
+  contents:
+    - title: Teaching & Mentorship
+      items:
+        - TA and evening group tutor, Juniata College — Intro Physics I & II, Modern Physics, E&M (2022–2025); sessions among the most attended on campus
+        - Research mentor for three high-school interns, UCSC Science Internship Program (2024)
+        - Founder, free learning center in Begusarai, Bihar, serving ~50 underprivileged students (2020–present)
+    - title: Scientific Outreach
+      items:
+        - Cambridge Explores the Universe & Cambridge Science Festival volunteer (2025)
+        - SPS & Sigma Pi Sigma National Council — led student engagement in the Northeast US (2024–2025)
+        - '"Astronomy Night at W.M. Keck Observatory" outreach for students in Kashmir, India, with UCSC Shadow the Scientist (2022)'
+        - Featured researcher on The Business Show live radio segment, London (2024)
+    - title: Community Leadership
+      items:
+        - Led nationwide volunteer coordination of COVID-19 relief logistics in India — transport, food, and medical supplies supporting several thousand people (2020–2021)
+        - Zomato Feeding partnerships directing surplus restaurant food to underserved communities, 2000+ meals (2019–2021)
+
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Programming
+      value: Python (Astropy, NumPy, SciPy, Matplotlib, pandas, Dask); R; C++ (intermediate)
+    - name: ML & Emulation
+      value: JAX/Flax, PyTorch, scikit-learn; neural spectral emulators; Bayesian inference
+    - name: Astrophysical Tools
+      value: Non-LTE radiative transfer (Rybicki–Hummer); IRAF, DS9; spectral fitting, photometric reduction, image processing
+    - name: Data & Surveys
+      value: FITS, large survey pipelines (DESI, Keck/DEIMOS, HST PHATTER/PHAST), crowding analysis
+    - name: HPC
+      value: SLURM job scheduling, parallel computing, GPU workflows
+
+- title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Reading, biking, and hiking
+    - Geopolitics and the history of scientific ideas — how knowledge originates, travels, and takes root
+    - Science writing and multilingual science communication
