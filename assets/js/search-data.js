@@ -55,77 +55,44 @@ ninja.data = [{
         
           title: 'The Emergence Paradox: Why We Build Artificial Minds While Ignoring Human Ones <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "",
+        description: "On the strange asymmetry between how carefully we cultivate machine intelligence and how carelessly we cultivate our own — and what that says about where ideas actually come from.",
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@rohit.620159/the-emergence-paradox-why-we-build-artificial-minds-while-ignoring-human-ones-ab17c5bb041a?source=rss-82dc17bb82------2", "_blank");
+            window.open("https://medium.com/@rohit.620159/the-emergence-paradox-why-we-build-artificial-minds-while-ignoring-human-ones-ab17c5bb041a", "_blank");
           
         },
-      },{id: "post-beyond-beauty-symmetry-s-role-in-physics-and-conservation-laws",
+      },{id: "post-beyond-beauty-symmetry-39-s-role-in-physics-and-conservation-laws",
         
-          title: 'Beyond Beauty: Symmetry’s Role in Physics and Conservation Laws <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'Beyond Beauty: Symmetry&#39;s Role in Physics and Conservation Laws <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "",
+        description: "Noether&#39;s theorem and why the deepest laws of physics are statements about what does not change — an essay grown out of a summer spent with the classical and Schrödinger wave equations.",
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@rohit.620159/beyond-beauty-symmetrys-role-in-physics-and-conservation-laws-5ea990b0e91e?source=rss-82dc17bb82------2", "_blank");
+            window.open("https://medium.com/@rohit.620159/beyond-beauty-symmetrys-role-in-physics-and-conservation-laws-5ea990b0e91e", "_blank");
           
         },
-      },{id: "post-from-manhattan-to-meta-learning-navigating-the-oppenheimer-ai-paradox",
+      },{id: "post-from-bullock-carts-to-lunar-landers-india-39-s-skyward-dreams-with-chandrayaan-3",
         
-          title: 'From Manhattan to Meta-learning: Navigating the Oppenheimer-AI Paradox <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: 'From Bullock Carts to Lunar Landers: India&#39;s Skyward Dreams with Chandrayaan-3 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "",
+        description: "How a space program once ferried on bicycles and bullock carts reached the lunar south pole — a story about scientific ingenuity under constraint, which is the kind I know best.",
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@rohit.620159/from-manhattan-to-meta-learning-navigating-the-oppenheimer-ai-paradox-6519876e7e7e?source=rss-82dc17bb82------2", "_blank");
-          
-        },
-      },{id: "post-बैलगाड़ी-से-चंद्र-लैंडर-तक-चंद्रयान-3-भारत-की-अंतरिक्ष-अन्वेषण-यात्रा-में-एक-और-मील-का-पत्थर",
-        
-          title: 'बैलगाड़ी से चंद्र लैंडर तक: चंद्रयान 3 भारत की अंतरिक्ष अन्वेषण यात्रा में... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@rohit.620159/%E0%A4%AC%E0%A5%88%E0%A4%B2%E0%A4%97%E0%A4%BE%E0%A4%A1%E0%A4%BC%E0%A5%80-%E0%A4%B8%E0%A5%87-%E0%A4%9A%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0-%E0%A4%B2%E0%A5%88%E0%A4%82%E0%A4%A1%E0%A4%B0-%E0%A4%A4%E0%A4%95-%E0%A4%9A%E0%A4%82%E0%A4%A6%E0%A5%8D%E0%A4%B0%E0%A4%AF%E0%A4%BE%E0%A4%A8-3-%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%A4-%E0%A4%95%E0%A5%80-%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7-%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%B5%E0%A5%87%E0%A4%B7%E0%A4%A3-%E0%A4%AF%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE-%E0%A4%AE%E0%A5%87%E0%A4%82-%E0%A4%8F%E0%A4%95-%E0%A4%94%E0%A4%B0-%E0%A4%AE%E0%A5%80%E0%A4%B2-%E0%A4%95%E0%A4%BE-%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%A5%E0%A4%B0-d4f0bf0e8045?source=rss-82dc17bb82------2", "_blank");
-          
-        },
-      },{id: "post-from-bullock-carts-to-lunar-landers-unfolding-india-s-skyward-dreams-with-isro-s-chandrayaan-3",
-        
-          title: 'From Bullock Carts to Lunar Landers: Unfolding India’s Skyward Dreams with ISRO’s Chandrayaan... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@rohit.620159/from-bullock-carts-to-lunar-landers-unfolding-indias-skyward-dreams-with-isro-s-chandrayaan-3-62efc418812a?source=rss-82dc17bb82------2", "_blank");
-          
-        },
-      },{id: "post-the-james-webb-space-telescope-a-personal-journey-through-time-and-space",
-        
-          title: 'The James Webb Space Telescope: A Personal Journey through Time and Space <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@rohit.620159/the-james-webb-space-telescope-a-personal-journey-through-time-and-space-cee5a90074ed?source=rss-82dc17bb82------2", "_blank");
+            window.open("https://medium.com/@rohit.620159/from-bullock-carts-to-lunar-landers-unfolding-indias-skyward-dreams-with-isro-s-chandrayaan-3-62efc418812a", "_blank");
           
         },
       },{id: "post-bridging-the-gap-the-crucial-interplay-between-science-and-politics",
         
           title: 'Bridging the Gap: The Crucial Interplay Between Science and Politics <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "",
+        description: "Science shapes policy and policy shapes science — on why researchers cannot afford to treat geopolitics as someone else&#39;s field.",
         section: "Posts",
         handler: () => {
           
-            window.open("https://medium.com/@rohit.620159/bridging-the-gap-the-crucial-interplay-between-science-and-politics-c02bd60515fa?source=rss-82dc17bb82------2", "_blank");
+            window.open("https://medium.com/@rohit.620159/bridging-the-gap-the-crucial-interplay-between-science-and-politics-c02bd60515fa", "_blank");
           
         },
       },{id: "news-graduated-with-distinction-from-juniata-college-and-received-the-aip-outstanding-undergraduate-research-award-one-of-two-students-recognized-nationally-mortar-board",
@@ -145,6 +112,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-my-first-first-author-paper-wolf-rayet-stars-in-m33-the-impact-of-stellar-crowding-on-spectral-classification-and-mass-loss-diagnostics-has-been-submitted-to-the-astrophysical-journal-code-and-catalogs-are-on-github-telescope",
           title: 'My first first-author paper, “Wolf-Rayet Stars in M33: The Impact of Stellar Crowding...',
+          description: "",
+          section: "News",},{id: "news-thrilled-to-share-that-i-will-be-joining-nasa-goddard-space-flight-center-as-a-cresst-research-assistant-in-september-2026-working-with-dr-edmund-hodges-kluck-on-galactic-winds-scaling-my-work-on-how-stars-lose-mass-up-to-how-galaxies-do-rocket",
+          title: 'Thrilled to share that I will be joining NASA Goddard Space Flight Center...',
           description: "",
           section: "News",},{id: "projects-betelgeuse-39-s-great-dimming",
           title: 'Betelgeuse&amp;#39;s Great Dimming',
