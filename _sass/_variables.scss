@@ -32,9 +32,17 @@ $grey-900: #212529;
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
 
+// Astro theme palette
+$astro-indigo: #4f46b8 !default; // cosmic indigo — light-mode accent
+$astro-star-blue: #8fb4fe !default; // starlight blue — dark-mode accent
+$astro-space-bg: #0d1226 !default; // deep-space navy — dark-mode background
+$astro-space-card: #151c3a !default; // nebula card surface
+$astro-space-code: #111834 !default; // dark code background
+$astro-space-divider: #2b3358 !default;
+
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($astro-indigo, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location

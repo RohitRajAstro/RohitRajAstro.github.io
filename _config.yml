@@ -120,9 +120,9 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
+# External sources disabled: selected essays are curated as redirect stubs in _posts
+# (full archive lives at https://medium.com/@rohit.620159)
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@rohit.620159/feed
 
 # -----------------------------------------------------------------------------
 # Newsletter
