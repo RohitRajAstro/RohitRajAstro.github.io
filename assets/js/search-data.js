@@ -123,7 +123,7 @@ ninja.data = [{
               window.location.href = "/projects/betelgeuse_great_dimming/";
             },},{id: "projects-computational-physics-playground",
           title: 'Computational physics playground',
-          description: "Chaotic pendulums, collapsing star clusters, LIGO signals, and light in time-varying media",
+          description: "Star formation, LIGO signals, light in time-varying media, and golden-ratio galaxies",
           section: "Projects",handler: () => {
               window.location.href = "/projects/computational_playground/";
             },},{id: "projects-what-fiber-spectrographs-miss-in-crowded-fields",
